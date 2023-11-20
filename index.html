@@ -65,10 +65,33 @@ ChatGPT s’utilise aussi sur certains modèles de voitures.<div style=color:blu
 <li>Si une réponse vous déplaît, vous pouvez mettre un pouce vers le bas. L’inverse est valable avec le pouce vers le haut si une réponse vous semble correcte. Dans tous les cas, vous pourrez mettre un commentaire pour améliorer le chatbot</li></ol><br/>
 Alternativement,<a href="https://apps.apple.com/us/app/chatgpt/id6448311069"><div styele=color:blue;> vous pouvez télécharger l’application officielle de ChatGPT sur iPhone, désormais disponible en France, depuis le 25 mai 2023.</a></div></p>
 <p>Laisser un avis :</p>			
-					<p><label for="Nom complet"</label>
+					<p><label for="Nom complet">Nom complet</label>
           <input id="Nom complet" type="name" name="name"placeholder="Nom complet"><br/><br/>
 	<textarea cols="30" rows="20" placeholder="commentaires"> </textarea><br/>
-	<input type="submit" value="VALIDER"><br/><p>
+	<input type="submit" value="VALIDER"><br/></p>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var form = document.querySelector('form');
+
+    form.addEventListener('submit', function (event) {
+      event.preventDefault(); // Prevent the default form submission behavior
+
+      var fullName = document.getElementById('Nom complet').value;
+      var comments = document.querySelector('textarea').value;
+
+      // You can perform further actions with the collected data,
+      // such as sending it to a server or displaying it on the page.
+      console.log('Nom complet:', fullName);
+      console.log('Commentaires:', comments);
+
+      // You can also reset the form after submission if needed
+      form.reset();
+    });
+  });
+</script>
+
+
 
 </body>
  <footer>ALCENAT JACQUES KERVENS</footer><br/>
