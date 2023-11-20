@@ -1,14 +1,17 @@
+body,h1,h2,h3,p,ul,ol,li,div{
+    margin:0;
+    padding:0:
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    line-height: 1.6;
     background-color: #f4f4f4;
+    color: #333;
 }
 
 header {
     background-color: #333;
     color: white;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -19,11 +22,12 @@ h1 {
 img {
     max-width: 100%;
     height: auto;
-    margin: 20px 0;
+    display: block;
+    margin: 20px auto;
 }
 
 p {
-    line-height: 1.6;
+    margin-bottom: 20px;
 }
 
 h2 {
@@ -31,10 +35,13 @@ h2 {
 }
 
 ol {
-    margin-left: 20px;
+    list-style-type: decimal;
+    margin-bottom: 20px;
 }
 
 ul {
+    list-style-type: disc;
+     margin-bottom: 20px;
     margin-left: 20px;
 }
 
@@ -68,7 +75,7 @@ button:hover {
 }
 
 form {
-    margin: 20px 0;
+margin-top: 20px;
 }
 
 label {
@@ -80,12 +87,16 @@ input {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
+    border: none;
+    cursor:pointer;
 }
 
 textarea {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 input[type="submit"] {
@@ -102,4 +113,7 @@ footer {
     color: white;
     padding: 10px;
     text-align: center;
+    position:fixed;
+    bottom: 0;
+    width:100%;
 }
