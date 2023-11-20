@@ -54,6 +54,28 @@ mark {
 div {
     margin: 20px 0;
 }
+/* Add this CSS to your existing styles.css or in the <style> tag in the head section of your HTML */
+
+/* Style for the radio buttons */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Style for the labels */
+p {
+    margin-bottom: 10px;
+}
+
+/* Style for the "Masculin" option */
+input[value="Masculin"] {
+    color: blue; /* Change the color to your preference */
+}
+
+/* Style for the "Feminin" option */
+input[value="Feminin"] {
+    color: pink; /* Change the color to your preference */
+}
+
 
 button {
     background-color: #007bff;
