@@ -1,3 +1,4 @@
+/* Resetting default styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,6 +6,7 @@ body {
     background-color: #f4f4f4;
 }
 
+/* Header styles */
 header {
     background-color: #333;
     color: white;
@@ -12,32 +14,30 @@ header {
     text-align: center;
 }
 
-h1 {
+/* Heading styles */
+h1, h2 {
     color: #333;
 }
 
+/* Image styles */
 img {
     max-width: 100%;
     height: auto;
     margin: 20px 0;
 }
 
+/* Paragraph styles */
 p {
     line-height: 1.6;
+    margin-bottom: 10px;
 }
 
-h2 {
-    color: #333;
-}
-
-ol {
+/* List styles */
+ol, ul {
     margin-left: 20px;
 }
 
-ul {
-    margin-left: 20px;
-}
-
+/* Link styles */
 a {
     color: #007bff;
     text-decoration: none;
@@ -47,31 +47,31 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Highlighted text */
 mark {
     background-color: #ffff99;
 }
 
+/* Generic div style */
 div {
     margin: 20px 0;
 }
 
+/* Radio button styles */
 input[type="radio"] {
     margin-right: 5px;
 }
 
-
-p {
-    margin-bottom: 10px;
-}
-
+/* Custom radio button styles */
 input[value="Masculin"] {
-    color: blue; 
+    color: blue;
 }
 
 input[value="Feminin"] {
-    color: pink; 
+    color: pink;
 }
 
+/* Button styles */
 button {
     background-color: #007bff;
     color: white;
@@ -84,27 +84,25 @@ button:hover {
     background-color: #0056b3;
 }
 
+/* Form styles */
 form {
     margin: 20px 0;
 }
 
+/* Label styles */
 label {
     display: block;
     margin-bottom: 5px;
 }
 
-input {
+/* Input and textarea styles */
+input, textarea {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
 }
 
-textarea {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-}
-
+/* Submit button styles */
 input[type="submit"] {
     background-color: #28a745;
     color: white;
@@ -114,6 +112,7 @@ input[type="submit"]:hover {
     background-color: #218838;
 }
 
+/* Footer styles */
 footer {
     background-color: #333;
     color: white;
